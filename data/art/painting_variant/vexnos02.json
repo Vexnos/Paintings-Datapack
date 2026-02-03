@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:vexnos02",
+    "width": 4,
+    "height": 3,
+    "title": {
+        "text": "A Pastoral Landscape",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Claude Lorrain",
+        "color": "gray"
+    }
+}

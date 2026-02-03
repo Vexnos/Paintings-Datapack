@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:vexnos01",
+    "width": 4,
+    "height": 3,
+    "title": {
+        "text": "The Angler in the Scottish Highlands",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Unknown",
+        "color": "gray"
+    }
+}

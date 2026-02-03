@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "minecraft:painting",
+    "result": {
+        "components": {
+            "minecraft:painting/variant": "art:vexnos41"
+        },
+        "count": 1,
+        "id": "minecraft:painting"
+    }
+}

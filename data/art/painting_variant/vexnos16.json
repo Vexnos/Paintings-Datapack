@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:vexnos16",
+    "width": 4,
+    "height": 5,
+    "title": {
+        "text": "Napoleon Crossing the Alps",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Jacques-Louis David",
+        "color": "gray"
+    }
+}
