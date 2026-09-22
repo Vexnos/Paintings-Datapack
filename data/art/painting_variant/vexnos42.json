@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:vexnos42",
+    "width": 4,
+    "height": 5,
+    "title": {
+        "text": "Kaiser Wilhelm I",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Gottlieb Biermann",
+        "color": "gray"
+    }
+}

@@ -285,5 +285,33 @@
         "author": "Francis Towne",
         "width": 4,
         "height": 3
+    },
+    {
+        "id": "vexnos42",
+        "title": "Kaiser Wilhelm I",
+        "author": "Gottlieb Biermann",
+        "width": 4,
+        "height": 5
+    },
+    {
+        "id": "vexnos43",
+        "title": "Kaiser Wilhelm I",
+        "author": "Gottlieb Biermann",
+        "width": 2,
+        "height": 3
+    },
+    {
+        "id": "vexnos44",
+        "title": "Die Proklamierung des Deutschen Kaiserreiches",
+        "author": "Anton von Werner",
+        "width": 4,
+        "height": 3
+    },
+    {
+        "id": "vexnos45",
+        "title": "Kaiser Wilhelm II",
+        "author": "Bruno Heinrich Strassberger",
+        "width": 1,
+        "height": 2
     }
 ]

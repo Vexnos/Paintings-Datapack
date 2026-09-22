@@ -50,6 +50,10 @@ execute as @a[scores={painting=38,painting_cleared=1}] run give @s painting[pain
 execute as @a[scores={painting=39,painting_cleared=1}] run give @s painting[painting/variant="art:vexnos39"]
 execute as @a[scores={painting=40,painting_cleared=1}] run give @s painting[painting/variant="art:vexnos40"]
 execute as @a[scores={painting=41,painting_cleared=1}] run give @s painting[painting/variant="art:vexnos41"]
+execute as @a[scores={painting=42,painting_cleared=1}] run give @s painting[painting/variant="art:vexnos42"]
+execute as @a[scores={painting=43,painting_cleared=1}] run give @s painting[painting/variant="art:vexnos43"]
+execute as @a[scores={painting=44,painting_cleared=1}] run give @s painting[painting/variant="art:vexnos44"]
+execute as @a[scores={painting=45,painting_cleared=1}] run give @s painting[painting/variant="art:vexnos45"]
 #
 # Error message if player doesn't have a painting
 #
