@@ -320,5 +320,26 @@
         "author": "Max Koner",
         "width": 4,
         "height": 5
+    },
+    {
+        "id": "vexnos47",
+        "title": "King Ludwig I of Bavaria",
+        "author": "Joseph Karl Stieler",
+        "width": 2,
+        "height": 3
+    },
+    {
+        "id": "vexnos48",
+        "title": "King Ludwig I",
+        "author": "Joseph Karl Stieler",
+        "width": 2,
+        "height": 2
+    },
+    {
+        "id": "vexnos49",
+        "title": "Chancellor Otto Von Bismarck",
+        "author": "Franz von Lenbach",
+        "width": 2,
+        "height": 2
     }
 ]
