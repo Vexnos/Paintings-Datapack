@@ -17,6 +17,8 @@ def import_json(path):
         return result
     except FileNotFoundError:
         print(f"Error! File at {path} does not exist!")
+    except json.JSONDecodeError:
+        print(f'Error! File at {path} contains invalid json!')
 
 def export_json(path, contents):
     with open(path, "w") as file:
