@@ -10,30 +10,29 @@ project: Paintings Script
 import json
 
 #-------Functions-------
-def import_json(path):
+def import_json(path: str) -> dict | None:
     try:
         with open(path, "r") as file:
-            result = json.load(file)
+            result: dict = json.load(file)
         return result
     except FileNotFoundError:
         print(f"Error! File at {path} does not exist!")
     except json.JSONDecodeError:
         print(f'Error! File at {path} contains invalid json!')
 
-def export_json(path, contents):
+def export_json(path: str, contents: dict) -> None:
     with open(path, "w") as file:
         json.dump(contents, file, indent=4)
     print(f"Successfully exported data to {path}")
 
-#-------Main-Routine-------
-if __name__ == "__main__":
-    painting_metadata = import_json("paintings.json")
-    resource_path = import_json("resource_path.json")
+def main() -> None:
+    painting_metadata: dict | None = import_json("paintings.json")
+    resource_path: dict | None = import_json("resource_path.json")
 
     if painting_metadata is not None:
-        language_metadata = {}
+        language_metadata: dict = {}
 
-        function_lines = ["#\n# Description: Give painting based on trigger value\n# Called by: art:main_1s\n# Entity @s: player\n#\n# Check if painting has been cleared\n#\nexecute store result score @s painting_cleared run clear @s painting 1\n#\n# Give painting if the player has one\n#"]
+        function_lines: list[str] = ["#\n# Description: Give painting based on trigger value\n# Called by: art:main_1s\n# Entity @s: player\n#\n# Check if painting has been cleared\n#\nexecute store result score @s painting_cleared run clear @s painting 1\n#\n# Give painting if the player has one\n#"]
 
         for i, metadata in enumerate(painting_metadata, 1):
             painting = {
@@ -71,11 +70,15 @@ if __name__ == "__main__":
             function_lines.append("execute as @a[scores={painting=" + str(i) + ",painting_cleared=1}] run give @s painting[painting/variant=\"art:" + metadata['id'] + "\"]")
         function_lines.append("#\n# Error message if player doesn't have a painting\n#\nexecute as @a[scores={painting=1..,painting_cleared=0}] run tellraw @s {text:\"You must have at least one painting in your inventory!\",color:\"red\"}\nexecute at @s[scores={painting=1..,painting_cleared=0}] run playsound minecraft:block.note_block.didgeridoo master @s\n#\n# Reset Scoreboards\n#\nexecute as @a[scores={painting=1..}] run scoreboard players set @s painting 0\nexecute as @a[scores={painting=1..}] run scoreboard players set @s painting_cleared 0")
 
-        function_path = "data/art/function/give_painting.mcfunction"
+        function_path: str = "data/art/function/give_painting.mcfunction"
         
         with open(function_path, "w") as file:
             file.write("\n".join(function_lines))
         print(f"Successfully exported data to {function_path}")
 
         if resource_path is not None:
-            export_json(resource_path.get("path"), language_metadata)
+            export_json(resource_path["path"], language_metadata)
+
+#-------Main-Routine-------
+if __name__ == "__main__":
+    main()
