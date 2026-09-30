@@ -341,5 +341,19 @@
         "author": "Franz von Lenbach",
         "width": 2,
         "height": 2
+    },
+    {
+        "id": "vexnos50",
+        "title": "Burg Hohenzollern",
+        "author": "Johann Adolf Lasinsky",
+        "width": 4,
+        "height": 3
+    },
+    {
+        "id": "vexnos51",
+        "title": "Frederick the Great (Frederick II of Prussia)",
+        "author": "Wilhelm Camphausen",
+        "width": 2,
+        "height": 2
     }
 ]
