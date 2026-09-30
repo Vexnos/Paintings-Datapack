@@ -35,7 +35,7 @@ def main() -> None:
         function_lines: list[str] = ["#\n# Description: Give painting based on trigger value\n# Called by: art:main_1s\n# Entity @s: player\n#\n# Check if painting has been cleared\n#\nexecute store result score @s painting_cleared run clear @s painting 1\n#\n# Give painting if the player has one\n#"]
 
         for i, metadata in enumerate(painting_metadata, 1):
-            painting = {
+            painting: dict = {
                 "asset_id": f"art:{metadata['id']}",
                 "width": metadata["width"],
                 "height": metadata["height"],
@@ -49,7 +49,7 @@ def main() -> None:
                 }
             }
 
-            recipe = {
+            recipe: dict = {
                 "type": "minecraft:stonecutting",
                 "ingredient": "minecraft:painting",
                 "result": {
