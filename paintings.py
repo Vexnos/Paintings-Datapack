@@ -25,18 +25,18 @@ def export_json(path: str, contents: dict) -> None:
         json.dump(contents, file, indent=4)
     print(f"Successfully exported data to {path}")
 
-def add_painting(metadata: dict) -> dict:
+def add_painting(metadata: dict, title_color: str | None = None, author_color: str | None = None) -> dict:
     return {
         "asset_id": f"art:{metadata['id']}",
         "width": metadata["width"],
         "height": metadata["height"],
         "title": {
             "text": metadata["title"],
-            "color": "yellow"
+            "color": title_color if title_color is not None else "yellow"
         },
         "author": {
             "text": metadata["author"],
-            "color": "gray"
+            "color": author_color if author_color is not None else "gray"
         }
     }
 
