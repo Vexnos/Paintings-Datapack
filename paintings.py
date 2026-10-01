@@ -25,7 +25,7 @@ def export_json(path: str, contents: dict) -> None:
         json.dump(contents, file, indent=4)
     print(f"Successfully exported data to {path}")
 
-def add_painting(metadata: dict, title_color: str | None = None, author_color: str | None = None) -> dict:
+def to_painting(metadata: dict, title_color: str | None = None, author_color: str | None = None) -> dict:
     return {
         "asset_id": f"art:{metadata['id']}",
         "width": metadata["width"],
@@ -40,7 +40,7 @@ def add_painting(metadata: dict, title_color: str | None = None, author_color: s
         }
     }
 
-def add_recipe(metadata: dict) -> dict:
+def to_recipe(metadata: dict) -> dict:
     return {
         "type": "minecraft:stonecutting",
         "ingredient": "minecraft:painting",
@@ -66,8 +66,8 @@ def main() -> None:
             language_metadata[f"painting.art.{metadata['id']}.title"] = metadata["title"]
             language_metadata[f"painting.art.{metadata['id']}.author"] = metadata["author"]
 
-            export_json(f"data/art/painting_variant/{metadata['id']}.json", add_painting(metadata))
-            export_json(f"data/art/recipe/painting_variant/z_{metadata['id']}.json", add_recipe(metadata))
+            export_json(f"data/art/painting_variant/{metadata['id']}.json", to_painting(metadata))
+            export_json(f"data/art/recipe/painting_variant/z_{metadata['id']}.json", to_recipe(metadata))
 
             function_lines.append("execute as @a[scores={painting=" + str(i) + ",painting_cleared=1}] run give @s painting[painting/variant=\"art:" + metadata['id'] + "\"]")
         function_lines.append("#\n# Error message if player doesn't have a painting\n#\nexecute as @a[scores={painting=1..,painting_cleared=0}] run tellraw @s {text:\"You must have at least one painting in your inventory!\",color:\"red\"}\nexecute at @s[scores={painting=1..,painting_cleared=0}] run playsound minecraft:block.note_block.didgeridoo master @s\n#\n# Reset Scoreboards\n#\nexecute as @a[scores={painting=1..}] run scoreboard players set @s painting 0\nexecute as @a[scores={painting=1..}] run scoreboard players set @s painting_cleared 0")
