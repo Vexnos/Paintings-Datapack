@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:atomhix01",
+    "width": 5,
+    "height": 5,
+    "title": {
+        "text": "All Hail Starscream",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Hasbro",
+        "color": "gray"
+    }
+}
