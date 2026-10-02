@@ -8,9 +8,10 @@ project: Paintings Script
 '''
 #-------Libraries-------
 import json
+from typing import Any
 
 #-------Functions-------
-def import_json(path: str) -> dict | None:
+def import_json(path: str) -> Any:
     try:
         with open(path, "r") as file:
             result: dict = json.load(file)
@@ -53,8 +54,32 @@ def to_recipe(metadata: dict) -> dict:
         }
     }
 
+def painting_override(painting: dict) -> dict:
+    return {
+        "when": f"art:{painting['id']}",
+        "model": {
+            "type": "model",
+            "model": f"art:item/{painting['item_model']}"
+        }
+    }
+
+def item_override(painting_metadata: list[dict], overrides: dict) -> dict:
+    overrides_list: list[dict] = overrides["model"]["cases"]
+    stop_at: str = "vexnos01"
+    index = next((i for i, item in enumerate(overrides_list) if stop_at in item["when"]), None)
+
+    if index is not None:
+        result: list = overrides_list[:index]
+        for painting in painting_metadata:
+            result.append(painting_override(painting))
+        overrides["model"]["cases"] = result
+        return overrides
+    else:
+        print('WARNING: Index was not found. Returning original list to preserve data.')
+        return overrides
+
 def main() -> None:
-    painting_metadata: dict | None = import_json("paintings.json")
+    painting_metadata: list[dict] | None = import_json("paintings.json")
     resource_path: dict | None = import_json("resource_path.json")
 
     if painting_metadata is not None:
@@ -70,6 +95,7 @@ def main() -> None:
             export_json(f"data/art/recipe/painting_variant/z_{metadata['id']}.json", to_recipe(metadata))
 
             function_lines.append("execute as @a[scores={painting=" + str(i) + ",painting_cleared=1}] run give @s painting[painting/variant=\"art:" + metadata['id'] + "\"]")
+
         function_lines.append("#\n# Error message if player doesn't have a painting\n#\nexecute as @a[scores={painting=1..,painting_cleared=0}] run tellraw @s {text:\"You must have at least one painting in your inventory!\",color:\"red\"}\nexecute at @s[scores={painting=1..,painting_cleared=0}] run playsound minecraft:block.note_block.didgeridoo master @s\n#\n# Reset Scoreboards\n#\nexecute as @a[scores={painting=1..}] run scoreboard players set @s painting 0\nexecute as @a[scores={painting=1..}] run scoreboard players set @s painting_cleared 0")
 
         function_path: str = "data/art/function/give_painting.mcfunction"
@@ -80,6 +106,10 @@ def main() -> None:
 
         if resource_path is not None:
             export_json(resource_path["path"], language_metadata)
+            overrides: dict | None = import_json(resource_path["override_path"])
+            if overrides is not None:
+                overrides = item_override(painting_metadata, overrides)
+                export_json(resource_path["override_path"], overrides)
 
 #-------Main-Routine-------
 if __name__ == "__main__":
