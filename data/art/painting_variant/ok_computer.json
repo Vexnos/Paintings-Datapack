@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:ok_computer",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "O.K Computer | 1997",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Radiohead",
+        "color": "gray"
+    }
+}

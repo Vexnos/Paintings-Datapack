@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:album05",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "Prospekt's March | 2009",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Coldplay",
+        "color": "gray"
+    }
+}

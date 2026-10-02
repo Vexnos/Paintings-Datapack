@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:album09",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "Ghost Stories | 2014",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Coldplay",
+        "color": "gray"
+    }
+}

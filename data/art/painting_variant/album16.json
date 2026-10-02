@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:album16",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "The Joshua Tree (Super Deluxe) | 1987",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "U2",
+        "color": "gray"
+    }
+}

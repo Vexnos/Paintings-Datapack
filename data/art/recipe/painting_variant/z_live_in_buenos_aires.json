@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "minecraft:painting",
+    "result": {
+        "components": {
+            "minecraft:painting/variant": "art:live_in_buenos_aires"
+        },
+        "count": 1,
+        "id": "minecraft:painting"
+    }
+}

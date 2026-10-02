@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "minecraft:painting",
+    "result": {
+        "components": {
+            "minecraft:painting/variant": "art:a_head_full_of_dreams"
+        },
+        "count": 1,
+        "id": "minecraft:painting"
+    }
+}

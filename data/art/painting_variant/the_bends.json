@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:the_bends",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "The Bends | 1995",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Radiohead",
+        "color": "gray"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:album15",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "The Unforgettable Fire | 1984",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "U2",
+        "color": "gray"
+    }
+}

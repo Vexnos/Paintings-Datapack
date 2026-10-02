@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "minecraft:painting",
+    "result": {
+        "components": {
+            "minecraft:painting/variant": "art:a_rush_of_blood_to_the_head"
+        },
+        "count": 1,
+        "id": "minecraft:painting"
+    }
+}

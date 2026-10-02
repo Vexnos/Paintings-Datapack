@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:album11",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "Live in Buenos Aires | 2018",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Coldplay",
+        "color": "gray"
+    }
+}

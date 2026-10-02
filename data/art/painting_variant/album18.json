@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:album18",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "Discovery | 2001",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Daft Punk",
+        "color": "gray"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:album20",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "Vessel | 2013",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Twenty One Pilots",
+        "color": "gray"
+    }
+}

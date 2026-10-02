@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:x_y",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "X&Y | 2005",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Coldplay",
+        "color": "gray"
+    }
+}
