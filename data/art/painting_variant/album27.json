@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:album27",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "Hot Fuss | 2004",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "The Killers",
+        "color": "gray"
+    }
+}

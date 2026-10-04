@@ -86,6 +86,12 @@ execute as @a[scores={painting=74,painting_cleared=1}] run give @s painting[pain
 execute as @a[scores={painting=75,painting_cleared=1}] run give @s painting[painting/variant="art:album23"]
 execute as @a[scores={painting=76,painting_cleared=1}] run give @s painting[painting/variant="art:album24"]
 execute as @a[scores={painting=77,painting_cleared=1}] run give @s painting[painting/variant="art:album25"]
+execute as @a[scores={painting=78,painting_cleared=1}] run give @s painting[painting/variant="art:album26"]
+execute as @a[scores={painting=79,painting_cleared=1}] run give @s painting[painting/variant="art:album27"]
+execute as @a[scores={painting=80,painting_cleared=1}] run give @s painting[painting/variant="art:album28"]
+execute as @a[scores={painting=81,painting_cleared=1}] run give @s painting[painting/variant="art:single01"]
+execute as @a[scores={painting=82,painting_cleared=1}] run give @s painting[painting/variant="art:single02"]
+execute as @a[scores={painting=83,painting_cleared=1}] run give @s painting[painting/variant="art:single03"]
 #
 # Error message if player doesn't have a painting
 #

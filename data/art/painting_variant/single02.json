@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:single02",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "The Basement Is Burning | 2017",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Mark Hawkins",
+        "color": "gray"
+    }
+}

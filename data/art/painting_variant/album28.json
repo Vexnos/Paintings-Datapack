@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:album28",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "Day & Age | 2008",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "The Killers",
+        "color": "gray"
+    }
+}

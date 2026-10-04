@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:album26",
+    "width": 1,
+    "height": 1,
+    "title": {
+        "text": "Battle Born | 2012",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "The Killers",
+        "color": "gray"
+    }
+}

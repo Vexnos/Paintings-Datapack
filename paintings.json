@@ -614,5 +614,53 @@
         "width": 1,
         "height": 1,
         "item_model": "album"
+    },
+    {
+        "id": "album26",
+        "title": "Battle Born | 2012",
+        "author": "The Killers",
+        "width": 1,
+        "height": 1,
+        "item_model": "album"
+    },
+    {
+        "id": "album27",
+        "title": "Hot Fuss | 2004",
+        "author": "The Killers",
+        "width": 1,
+        "height": 1,
+        "item_model": "album"
+    },
+    {
+        "id": "album28",
+        "title": "Day & Age | 2008",
+        "author": "The Killers",
+        "width": 1,
+        "height": 1,
+        "item_model": "album"
+    },
+    {
+        "id": "single01",
+        "title": "Sunshine Is Coming | 2025",
+        "author": "Bellaire",
+        "width": 1,
+        "height": 1,
+        "item_model": "album"
+    },
+    {
+        "id": "single02",
+        "title": "The Basement Is Burning | 2017",
+        "author": "Mark Hawkins",
+        "width": 1,
+        "height": 1,
+        "item_model": "album"
+    },
+    {
+        "id": "single03",
+        "title": "Music Sounds Better With You | 1998",
+        "author": "Bellaire",
+        "width": 1,
+        "height": 1,
+        "item_model": "album"
     }
 ]
