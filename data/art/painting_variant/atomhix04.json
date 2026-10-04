@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:atomhix04",
+    "width": 3,
+    "height": 3,
+    "title": {
+        "text": "Jonah J. Jameson",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "J.K Simmons",
+        "color": "gray"
+    }
+}

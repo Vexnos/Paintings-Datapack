@@ -416,6 +416,46 @@
         "item_model": "atomhix"
     },
     {
+        "id": "atomhix02",
+        "title": "Jonah J. Jameson",
+        "author": "J.K Simmons",
+        "width": 1,
+        "height": 1,
+        "item_model": "atomhix"
+    },
+    {
+        "id": "atomhix03",
+        "title": "Jonah J. Jameson",
+        "author": "J.K Simmons",
+        "width": 2,
+        "height": 2,
+        "item_model": "atomhix"
+    },
+    {
+        "id": "atomhix04",
+        "title": "Jonah J. Jameson",
+        "author": "J.K Simmons",
+        "width": 3,
+        "height": 3,
+        "item_model": "atomhix"
+    },
+    {
+        "id": "atomhix05",
+        "title": "Jonah J. Jameson",
+        "author": "J.K Simmons",
+        "width": 4,
+        "height": 4,
+        "item_model": "atomhix"
+    },
+    {
+        "id": "atomhix06",
+        "title": "Jonah J. Jameson",
+        "author": "J.K Simmons",
+        "width": 5,
+        "height": 5,
+        "item_model": "atomhix"
+    },
+    {
         "id": "album01",
         "title": "Parachutes | 2000",
         "author": "Coldplay",
@@ -658,7 +698,7 @@
     {
         "id": "single03",
         "title": "Music Sounds Better With You | 1998",
-        "author": "Bellaire",
+        "author": "Stardust",
         "width": 1,
         "height": 1,
         "item_model": "album"
