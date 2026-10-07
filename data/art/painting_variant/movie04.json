@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie04",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Wall-E | 2008",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Andrew Stanton",
+        "color": "gray"
+    }
+}

@@ -702,5 +702,109 @@
         "width": 1,
         "height": 1,
         "item_model": "album"
+    },
+    {
+        "id": "movie01",
+        "title": "Project: Hail Mary | 2026",
+        "author": "Phil Lord, Christopher Miller and Andy Weir",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie02",
+        "title": "Tron: Legacy | 2010",
+        "author": "Joseph Kosinski",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie03",
+        "title": "Interstellar | 2014",
+        "author": "Christopher Nolan",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie04",
+        "title": "Wall-E | 2008",
+        "author": "Andrew Stanton",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie05",
+        "title": "Megamind | 2010",
+        "author": "Tom McGrath",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie06",
+        "title": "Ratatouille | 2007",
+        "author": "Brad Bird",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie07",
+        "title": "The Incredibles | 2004",
+        "author": "Brad Bird",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie08",
+        "title": "Spiderman: Into The Spiderverse | 2018",
+        "author": "Bob Persichetti, Peter Ramsey and Rodney Rothman",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie09",
+        "title": "Puss and Boots: The Last Wish | 2022",
+        "author": "Joel Crawford and Januel P. Mercado",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie10",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "author": "Peter Jackson",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie11",
+        "title": "The Lord of the Rings: The Two Towers",
+        "author": "Peter Jackson",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie12",
+        "title": "The Lord of the Rings: The Return of the King",
+        "author": "Peter Jackson",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
+    },
+    {
+        "id": "movie13",
+        "title": "The Imitation Game | 2014",
+        "author": "Morten Tyldum",
+        "width": 2,
+        "height": 3,
+        "item_model": "movie"
     }
 ]

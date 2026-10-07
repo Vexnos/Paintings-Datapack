@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie05",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Megamind | 2010",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Tom McGrath",
+        "color": "gray"
+    }
+}

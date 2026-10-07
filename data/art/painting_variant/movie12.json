@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie12",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "The Lord of the Rings: The Return of the King",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Peter Jackson",
+        "color": "gray"
+    }
+}

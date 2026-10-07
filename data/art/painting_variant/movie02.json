@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie02",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Tron: Legacy | 2010",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Joseph Kosinski",
+        "color": "gray"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie08",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Spiderman: Into The Spiderverse | 2018",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Bob Persichetti, Peter Ramsey and Rodney Rothman",
+        "color": "gray"
+    }
+}

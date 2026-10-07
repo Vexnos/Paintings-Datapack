@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie03",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Interstellar | 2014",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Christopher Nolan",
+        "color": "gray"
+    }
+}

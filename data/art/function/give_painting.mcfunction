@@ -97,6 +97,19 @@ execute as @a[scores={painting=85,painting_cleared=1}] run give @s painting[pain
 execute as @a[scores={painting=86,painting_cleared=1}] run give @s painting[painting/variant="art:single01"]
 execute as @a[scores={painting=87,painting_cleared=1}] run give @s painting[painting/variant="art:single02"]
 execute as @a[scores={painting=88,painting_cleared=1}] run give @s painting[painting/variant="art:single03"]
+execute as @a[scores={painting=89,painting_cleared=1}] run give @s painting[painting/variant="art:movie01"]
+execute as @a[scores={painting=90,painting_cleared=1}] run give @s painting[painting/variant="art:movie02"]
+execute as @a[scores={painting=91,painting_cleared=1}] run give @s painting[painting/variant="art:movie03"]
+execute as @a[scores={painting=92,painting_cleared=1}] run give @s painting[painting/variant="art:movie04"]
+execute as @a[scores={painting=93,painting_cleared=1}] run give @s painting[painting/variant="art:movie05"]
+execute as @a[scores={painting=94,painting_cleared=1}] run give @s painting[painting/variant="art:movie06"]
+execute as @a[scores={painting=95,painting_cleared=1}] run give @s painting[painting/variant="art:movie07"]
+execute as @a[scores={painting=96,painting_cleared=1}] run give @s painting[painting/variant="art:movie08"]
+execute as @a[scores={painting=97,painting_cleared=1}] run give @s painting[painting/variant="art:movie09"]
+execute as @a[scores={painting=98,painting_cleared=1}] run give @s painting[painting/variant="art:movie10"]
+execute as @a[scores={painting=99,painting_cleared=1}] run give @s painting[painting/variant="art:movie11"]
+execute as @a[scores={painting=100,painting_cleared=1}] run give @s painting[painting/variant="art:movie12"]
+execute as @a[scores={painting=101,painting_cleared=1}] run give @s painting[painting/variant="art:movie13"]
 #
 # Error message if player doesn't have a painting
 #

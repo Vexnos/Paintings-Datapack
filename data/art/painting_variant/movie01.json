@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie01",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Project: Hail Mary | 2026",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Phil Lord, Christopher Miller and Andy Weir",
+        "color": "gray"
+    }
+}

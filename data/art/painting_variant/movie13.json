@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie13",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "The Imitation Game | 2014",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Morten Tyldum",
+        "color": "gray"
+    }
+}

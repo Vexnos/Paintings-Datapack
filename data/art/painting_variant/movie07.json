@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie07",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "The Incredibles | 2004",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Brad Bird",
+        "color": "gray"
+    }
+}

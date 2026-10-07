@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie09",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Puss and Boots: The Last Wish | 2022",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Joel Crawford and Januel P. Mercado",
+        "color": "gray"
+    }
+}
