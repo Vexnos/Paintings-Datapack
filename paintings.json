@@ -729,7 +729,7 @@
     },
     {
         "id": "movie04",
-        "title": "Wall-E | 2008",
+        "title": "WALL-E | 2008",
         "author": "Andrew Stanton",
         "width": 2,
         "height": 3,
@@ -777,7 +777,7 @@
     },
     {
         "id": "movie10",
-        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "title": "The Lord of the Rings: The Fellowship of the Ring | 2001",
         "author": "Peter Jackson",
         "width": 2,
         "height": 3,
@@ -785,7 +785,7 @@
     },
     {
         "id": "movie11",
-        "title": "The Lord of the Rings: The Two Towers",
+        "title": "The Lord of the Rings: The Two Towers | 2002",
         "author": "Peter Jackson",
         "width": 2,
         "height": 3,
@@ -793,7 +793,7 @@
     },
     {
         "id": "movie12",
-        "title": "The Lord of the Rings: The Return of the King",
+        "title": "The Lord of the Rings: The Return of the King | 2003",
         "author": "Peter Jackson",
         "width": 2,
         "height": 3,
