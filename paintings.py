@@ -8,18 +8,17 @@ project: Paintings Script
 '''
 #-------Libraries-------
 import json
+import json5
 from typing import Any
 
 #-------Functions-------
 def import_json(path: str) -> Any:
     try:
         with open(path, "r") as file:
-            result: dict = json.load(file)
+            result: dict = json5.load(file)
         return result
     except FileNotFoundError:
         print(f"Error! File at {path} does not exist!")
-    except json.JSONDecodeError:
-        print(f'Error! File at {path} contains invalid json!')
 
 def export_json(path: str, contents: dict) -> None:
     with open(path, "w") as file:
@@ -79,8 +78,8 @@ def item_override(painting_metadata: list[dict], overrides: dict) -> dict:
         return overrides
 
 def main() -> None:
-    painting_metadata: list[dict] | None = import_json("paintings.json")
-    resource_path: dict | None = import_json("resource_path.json")
+    painting_metadata: list[dict] | None = import_json("paintings.json5")
+    resource_path: dict | None = import_json("resource_path.json5")
 
     if painting_metadata is not None:
         language_metadata: dict = {}
