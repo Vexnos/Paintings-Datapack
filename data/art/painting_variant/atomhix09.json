@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:atomhix09",
+    "width": 3,
+    "height": 3,
+    "title": {
+        "text": "Decepticon Logo",
+        "color": "yellow"
+    },
+    "author": {
+        "text": "Megatron",
+        "color": "gray"
+    }
+}

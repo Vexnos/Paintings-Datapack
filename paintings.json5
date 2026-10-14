@@ -461,6 +461,46 @@
         height: 5,
         item_model: "atomhix"
     },
+    {
+        id: "atomhix07",
+        title: "Decepticon Logo",
+        author: "Megatron",
+        width: 1,
+        height: 1,
+        item_model: "atomhix"
+    },
+    {
+        id: "atomhix08",
+        title: "Decepticon Logo",
+        author: "Megatron",
+        width: 2,
+        height: 2,
+        item_model: "atomhix"
+    },
+    {
+        id: "atomhix09",
+        title: "Decepticon Logo",
+        author: "Megatron",
+        width: 3,
+        height: 3,
+        item_model: "atomhix"
+    },
+    {
+        id: "atomhix10",
+        title: "Decepticon Logo",
+        author: "Megatron",
+        width: 4,
+        height: 4,
+        item_model: "atomhix"
+    },
+    {
+        id: "atomhix11",
+        title: "Decepticon Logo",
+        author: "Megatron",
+        width: 5,
+        height: 5,
+        item_model: "atomhix"
+    },
     // -------------------------------------------------------------------
     // Music
     // -------------------------------------------------------------------
