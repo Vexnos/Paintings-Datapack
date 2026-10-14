@@ -9,6 +9,8 @@ project: Paintings Script
 #-------Libraries-------
 import json
 import json5
+import shutil
+import os
 from typing import Any
 
 #-------Functions-------
@@ -77,11 +79,20 @@ def item_override(painting_metadata: list[dict], overrides: dict) -> dict:
         print('WARNING: Index was not found. Returning original list to preserve data.')
         return overrides
 
+def overwrite_directories() -> None:
+    shutil.rmtree('data/art/painting_variant')
+    shutil.rmtree('data/art/recipe/painting_variant')
+
+    os.makedirs('data/art/painting_variant', exist_ok=True)
+    os.makedirs('data/art/recipe/painting_variant', exist_ok=True)
+
 def main() -> None:
     painting_metadata: list[dict] | None = import_json("paintings.json5")
     resource_path: dict | None = import_json("resource_path.json5")
 
     if painting_metadata is not None:
+        overwrite_directories()
+
         language_metadata: dict = {}
 
         function_lines: list[str] = ["#\n# Description: Give painting based on trigger value\n# Called by: art:main_1s\n# Entity @s: player\n#\n# Check if painting has been cleared\n#\nexecute store result score @s painting_cleared run clear @s painting 1\n#\n# Give painting if the player has one\n#"]
