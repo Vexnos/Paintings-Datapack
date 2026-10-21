@@ -501,6 +501,30 @@
         height: 5,
         item_model: "atomhix"
     },
+    {
+        id: "atomhix12",
+        title: "Captain Dexter Jettstar of the Boonta Eve Busters",
+        author: "Atomhix",
+        width: 2,
+        height: 3,
+        item_model: "atomhix"
+    },
+    {
+        id: "atomhix13",
+        title: "Captain Joh Yowzah of the Die Wanna Wanga's",
+        author: "Atomhix",
+        width: 2,
+        height: 3,
+        item_model: "atomhix"
+    },
+    {
+        id: "atomhix14",
+        title: "Captain Jorus C'baoth of the Bouncing Batch",
+        author: "Atomhix",
+        width: 2,
+        height: 3,
+        item_model: "atomhix"
+    },
     // -------------------------------------------------------------------
     // Music
     // -------------------------------------------------------------------
