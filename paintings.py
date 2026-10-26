@@ -34,7 +34,7 @@ def to_painting(metadata: dict, title_color: str | None = None, author_color: st
         "height": metadata["height"],
         "title": {
             "text": metadata["title"],
-            "color": title_color if title_color is not None else "yellow"
+            "color": title_color if title_color is not None else "gold"
         },
         "author": {
             "text": metadata["author"],
