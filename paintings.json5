@@ -525,6 +525,14 @@
         height: 3,
         item_model: "atomhix"
     },
+    {
+        id: "atomhix15",
+        title: "Farm Smeller Memorial Poster",
+        author: "Atomhix",
+        width: 4,
+        height: 5,
+        item_model: "atomhix"
+    },
     // -------------------------------------------------------------------
     // Music
     // -------------------------------------------------------------------
