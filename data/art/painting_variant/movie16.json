@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie16",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Star Wars: Return Of The Jedi | 1983",
+        "color": "gold"
+    },
+    "author": {
+        "text": "George Lucas",
+        "color": "gray"
+    }
+}

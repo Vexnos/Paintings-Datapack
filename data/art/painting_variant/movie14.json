@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie14",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Star Wars: A New Hope | 1997",
+        "color": "gold"
+    },
+    "author": {
+        "text": "George Lucas",
+        "color": "gray"
+    }
+}

@@ -119,6 +119,9 @@ execute as @a[scores={painting=107,painting_cleared=1}] run give @s painting[pai
 execute as @a[scores={painting=108,painting_cleared=1}] run give @s painting[painting/variant="art:movie11"]
 execute as @a[scores={painting=109,painting_cleared=1}] run give @s painting[painting/variant="art:movie12"]
 execute as @a[scores={painting=110,painting_cleared=1}] run give @s painting[painting/variant="art:movie13"]
+execute as @a[scores={painting=111,painting_cleared=1}] run give @s painting[painting/variant="art:movie14"]
+execute as @a[scores={painting=112,painting_cleared=1}] run give @s painting[painting/variant="art:movie15"]
+execute as @a[scores={painting=113,painting_cleared=1}] run give @s painting[painting/variant="art:movie16"]
 #
 # Error message if player doesn't have a painting
 #

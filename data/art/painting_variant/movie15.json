@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie15",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Star Wars: The Empire Strikes Back | 1980",
+        "color": "gold"
+    },
+    "author": {
+        "text": "George Lucas",
+        "color": "gray"
+    }
+}
