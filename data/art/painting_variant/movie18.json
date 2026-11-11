@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie18",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Guardians of the Galaxy | 2014",
+        "color": "gold"
+    },
+    "author": {
+        "text": "James Gunn",
+        "color": "gray"
+    }
+}

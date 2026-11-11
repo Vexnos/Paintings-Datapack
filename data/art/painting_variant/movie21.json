@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie21",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Guardians of the Galaxy: Vol. 3 | 2023",
+        "color": "gold"
+    },
+    "author": {
+        "text": "James Gunn",
+        "color": "gray"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie20",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Avengers: Infinity War | 2018",
+        "color": "gold"
+    },
+    "author": {
+        "text": "Anthony Russo and Joe Russo",
+        "color": "gray"
+    }
+}

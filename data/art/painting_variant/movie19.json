@@ -1,0 +1,13 @@
+{
+    "asset_id": "art:movie19",
+    "width": 2,
+    "height": 3,
+    "title": {
+        "text": "Avengers: Age of Ultron | 2015",
+        "color": "gold"
+    },
+    "author": {
+        "text": "Joss Whedon",
+        "color": "gray"
+    }
+}
