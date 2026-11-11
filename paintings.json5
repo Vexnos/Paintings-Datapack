@@ -410,6 +410,22 @@
         height: 2,
         item_model: "vexnos"
     },
+    {
+        id: "vexnos52",
+        title: "National Party Logo",
+        author: "The National Party",
+        width: 1,
+        height: 1,
+        item_model: "vexnos"
+    },
+    {
+        id: "vexnos53",
+        title: "National Party Logo",
+        author: "The National Party",
+        width: 15,
+        height: 15,
+        item_model: "vexnos"
+    },
     // -------------------------------------------------------------------
     // Atomhix
     // -------------------------------------------------------------------
@@ -893,7 +909,7 @@
     },
     {
         id: "movie14",
-        title: "Star Wars: A New Hope | 1997",
+        title: "Star Wars: A New Hope | 1977",
         author: "George Lucas",
         width: 2,
         height: 3,
@@ -911,6 +927,46 @@
         id: "movie16",
         title: "Star Wars: Return Of The Jedi | 1983",
         author: "George Lucas",
+        width: 2,
+        height: 3,
+        item_model: "movie"
+    },
+    {
+        id: "movie17",
+        title: "Project: Hail Mary | 2026",
+        author: "Phil Lord, Christopher Miller and Andy Weir",
+        width: 2,
+        height: 3,
+        item_model: "movie"
+    },
+    {
+        id: "movie18",
+        title: "Guardians of the Galaxy | 2014",
+        author: "James Gunn",
+        width: 2,
+        height: 3,
+        item_model: "movie"
+    },
+    {
+        id: "movie19",
+        title: "Avengers: Age of Ultron | 2015",
+        author: "Joss Whedon",
+        width: 2,
+        height: 3,
+        item_model: "movie"
+    },
+    {
+        id: "movie20",
+        title: "Avengers: Infinity War | 2018",
+        author: "Anthony Russo and Joe Russo",
+        width: 2,
+        height: 3,
+        item_model: "movie"
+    },
+    {
+        id: "movie21",
+        title: "Guardians of the Galaxy: Vol. 3 | 2023",
+        author: "James Gunn",
         width: 2,
         height: 3,
         item_model: "movie"
